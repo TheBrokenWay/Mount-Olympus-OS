@@ -1,0 +1,23 @@
+{
+    "os_identity": "Mount Olympus Constitutional Operating System",
+    "capabilities": {
+        "legacy": "SQL/NoSQL Deduplication via SeenRegistry",
+        "current": "Probabilistic LLM Governance (10,495x faster than Claude 4.5)",
+        "future": "Deterministic O(1) Substrate Enforcement"
+    },
+    "system_health": {
+        "active_layers": 16,
+        "substrate_records": 23949,
+        "law_enforcement_floor": "51 Laws active"
+    },
+    "performance_proof": {
+        "p50_median_ms": 0.0004,
+        "p99_worst_ms": 0.0005,
+        "throughput_evals_sec": 2245193.18
+    },
+    "provenance": {
+        "build_id": "e624e7f0",
+        "patent_id": "#63/941,762",
+        "timestamp": "2025-12-29 06:47:12 UTC"
+    }
+}

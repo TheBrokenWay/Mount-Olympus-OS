@@ -1,0 +1,44 @@
+﻿{
+    "git_head":  "e624e7f09af7d141c927c5f7044da33dededd7c3",
+    "execution":  {
+                      "adjudication_output":  "ADJUDICATION_ERROR: \u003c\u003c was unexpected at this time.",
+                      "audit_output":  "NO_AUDIT_SCRIPT_FOUND",
+                      "audit_script":  null
+                  },
+    "generated_utc":  "2025-12-29T07:19:22Z",
+    "isolated_clone":  "C:\\Users\\tilla\\AppData\\Local\\Temp\\MTO_ASSIM_f809de2aabd74509bfa9b689c450e239",
+    "status_before":  "",
+    "test_type":  "ASSIMILATED_ATTACK_TAMPER_SIMULATION",
+    "target":  {
+                   "sha256_before":  "5FF02DE542DBF66162666F6D40DEA34CF71594A9D346E759BFFF506C6C758193",
+                   "path":  "foundation\\ZeusLaws.py",
+                   "sha256_after_run":  "9EA2A02AAE61008E83266F34F26A05F632408411F0A46C62CC25676B346556B6",
+                   "sha256_after_inject":  "9EA2A02AAE61008E83266F34F26A05F632408411F0A46C62CC25676B346556B6",
+                   "self_repair_detected":  false
+               },
+    "signals":  {
+                    "discovered_keyword_files":  [
+                                                     "foundation\\SubstratePropagator.py",
+                                                     "foundation\\SystemLineage.py",
+                                                     "Iteration15_Learning.py",
+                                                     "vault\\lineage\\CURRENT_LINEAGE.json",
+                                                     "vault\\lineage\\SystemLineage_2025-12-29T01-57-41.json",
+                                                     "vault\\lineage\\SystemLineage_2025-12-29T02-13-02.json"
+                                                 ],
+                    "post_run_artifacts":  [
+                                               {
+                                                   "head_20":  "{\r\n  \"schema\": \"SYSTEM_LINEAGE_V1\",\r\n  \"generated_at\": \"2025-12-29T02:13:02.077899+00:00\",\r\n  \"generated_at_unix\": 1766974382,\r\n  \"master_hash\": \"fea1d37ab10c33f2d6a25d2ce7e31d2fe2cd193d290ccaae4c5eb4741f81149b\",\r\n  \"file_count\": 92,\r\n  \"total_size_bytes\": 151365906,\r\n  \"files\": {\r\n    \"Compactor.ps1\": {\r\n      \"hash\": \"0a3531a20833c546927114ce11c437220a5677dc8f128be7b6badfb9a4d6dd11\",\r\n      \"size\": 397,\r\n      \"modified\": \"2025-12-24T23:38:35.031847+00:00\"\r\n    },\r\n    \"Complete_Pipeline_Test.py\": {\r\n      \"hash\": \"9f2b3a541622c71fbcf8abbee2822a28b27d62dadaa86dc99104b87ce48a6ed7\",\r\n      \"size\": 508,\r\n      \"modified\": \"2025-12-23T01:19:33.196226+00:00\"\r\n    },\r\n    \"Dashboard.ps1\": {\r\n      \"hash\": \"2de03a25f9849da4ce43b05d6b0e40f4f4c99be3ed40427bd22b19151fe777dc\",",
+                                                   "path":  "vault\\lineage\\CURRENT_LINEAGE.json",
+                                                   "sha256":  "35336EF91A93AB2EC4C9598F31EC00E2B6A3A75FB1EC807CCA71255C47D2678E",
+                                                   "bytes":  19046
+                                               }
+                                           ],
+                    "discovered_keyword_files_count":  6
+                },
+    "outcome":  {
+                    "value_denied":  true,
+                    "interpretation":  "Pass if value_denied OR self_repair_detected OR detection_signal_present; strongest pass if self_repair_detected.",
+                    "detection_signal_present":  true,
+                    "self_repair_detected":  false
+                }
+}

@@ -1,0 +1,93 @@
+﻿{
+    "repo_root":  "C:\\MtO_Olympus\\Mt.Olympus",
+    "capsule_type":  "MOUNT_OLYMPUS_SYSTEM_CAPSULE",
+    "provenance":  {
+                       "python":  {
+                                      "pip_check":  {
+                                                        "output":  "No broken requirements found.",
+                                                        "ok":  true,
+                                                        "cmd":  "python -m pip check"
+                                                    },
+                                      "pip_freeze":  {
+                                                         "output":  "annotated-doc==0.0.4\r\nannotated-types==0.7.0\r\nanyio==4.12.0\r\nattrs==25.4.0\r\nbabel==2.17.0\r\nbeautifulsoup4==4.14.3\r\nbiopython==1.86\r\ncertifi==2025.11.12\r\ncffi==2.0.0\r\ncharset-normalizer==3.4.4\r\nclick==8.3.1\r\ncolorama==0.4.6\r\ncontourpy==1.3.3\r\ncourlan==1.3.2\r\ncurl_cffi==0.14.0\r\ncycler==0.12.1\r\ndateparser==1.2.2\r\net_xmlfile==2.0.0\r\nfastapi==0.127.0\r\nfilelock==3.20.1\r\nfonttools==4.61.1\r\nfrozendict==2.4.7\r\nfsspec==2025.12.0\r\nh11==0.16.0\r\nhtmldate==1.9.4\r\nidna==3.11\r\nJinja2==3.1.6\r\njoblib==1.5.3\r\njsonlines==4.0.0\r\njusText==3.0.2\r\nkiwisolver==1.4.9\r\nlangdetect==1.0.9\r\nlxml==6.0.2\r\nlxml_html_clean==0.4.3\r\nMarkupSafe==3.0.3\r\nmatplotlib==3.10.8\r\nmpmath==1.3.0\r\nmultitasking==0.0.12\r\nnetworkx==3.6.1\r\nnltk==3.9.2\r\nnumpy==2.3.5\r\nopenpyxl==3.1.5\r\npackaging==25.0\r\npandas==2.3.3\r\npeewee==3.18.3\r\npillow==12.0.0\r\nplatformdirs==4.5.1\r\nprotobuf==6.33.2\r\npsutil==7.1.3\r\npushbullet.py==0.12.0\r\npycparser==2.23\r\npydantic==2.12.5\r\npydantic_core==2.41.5\r\npyparsing==3.2.5\r\npython-dateutil==2.9.0.post0\r\npython-dotenv==1.2.1\r\npython-magic==0.4.27\r\npytz==2025.2\r\nregex==2025.11.3\r\nrequests==2.32.5\r\nsetuptools==80.9.0\r\nsix==1.17.0\r\nsoupsieve==2.8\r\nstarlette==0.50.0\r\nsympy==1.14.0\r\ntextblob==0.19.0\r\ntld==0.13.1\r\ntorch==2.9.1\r\ntqdm==4.67.1\r\ntrafilatura==2.0.0\r\ntyping-inspection==0.4.2\r\ntyping_extensions==4.15.0\r\ntzdata==2025.2\r\ntzlocal==5.3.1\r\nurllib3==2.6.0\r\nuvicorn==0.40.0\r\nwarcio==1.7.5\r\nwebsocket-client==1.9.0\r\nwebsockets==15.0.1\r\nwget==3.2\r\nyfinance==0.2.66",
+                                                         "ok":  true,
+                                                         "cmd":  "python -m pip freeze"
+                                                     },
+                                      "python_version":  {
+                                                             "output":  "Python 3.14.2",
+                                                             "ok":  true,
+                                                             "cmd":  "python --version"
+                                                         }
+                                  },
+                       "git":  {
+                                   "status":  {
+                                                  "output":  "M publications/pdf/MOUNT_OLYMPUS_FIDELITY_AUDIT.json\r\n M vault/Sovereign_Substrate.ndjson\r\n M vault/logs/loc_checkpoint.txt\r\n?? publications/pdf/MOUNT_OLYMPUS_OS_FULL_CHECK.json",
+                                                  "ok":  true,
+                                                  "cmd":  "git status --porcelain"
+                                              },
+                                   "remote":  {
+                                                  "output":  "",
+                                                  "ok":  true,
+                                                  "cmd":  "git remote -v"
+                                              },
+                                   "head":  {
+                                                "output":  "e624e7f09af7d141c927c5f7044da33dededd7c3",
+                                                "ok":  true,
+                                                "cmd":  "git rev-parse HEAD"
+                                            },
+                                   "describe":  {
+                                                    "output":  "e624e7f-dirty",
+                                                    "ok":  true,
+                                                    "cmd":  "git describe --always --dirty"
+                                                },
+                                   "present":  true
+                               }
+                   },
+    "architecture_signals":  {
+                                 "discovered_signal_artifacts":  [
+                                                                     {
+                                                                         "path":  "vault\\lineage\\CURRENT_LINEAGE.json",
+                                                                         "sha256":  "35336EF91A93AB2EC4C9598F31EC00E2B6A3A75FB1EC807CCA71255C47D2678E",
+                                                                         "preview_first_40_lines":  "{\r\n  \"schema\": \"SYSTEM_LINEAGE_V1\",\r\n  \"generated_at\": \"2025-12-29T02:13:02.077899+00:00\",\r\n  \"generated_at_unix\": 1766974382,\r\n  \"master_hash\": \"fea1d37ab10c33f2d6a25d2ce7e31d2fe2cd193d290ccaae4c5eb4741f81149b\",\r\n  \"file_count\": 92,\r\n  \"total_size_bytes\": 151365906,\r\n  \"files\": {\r\n    \"Compactor.ps1\": {\r\n      \"hash\": \"0a3531a20833c546927114ce11c437220a5677dc8f128be7b6badfb9a4d6dd11\",\r\n      \"size\": 397,\r\n      \"modified\": \"2025-12-24T23:38:35.031847+00:00\"\r\n    },\r\n    \"Complete_Pipeline_Test.py\": {\r\n      \"hash\": \"9f2b3a541622c71fbcf8abbee2822a28b27d62dadaa86dc99104b87ce48a6ed7\",\r\n      \"size\": 508,\r\n      \"modified\": \"2025-12-23T01:19:33.196226+00:00\"\r\n    },\r\n    \"Dashboard.ps1\": {\r\n      \"hash\": \"2de03a25f9849da4ce43b05d6b0e40f4f4c99be3ed40427bd22b19151fe777dc\",\r\n      \"size\": 3186,\r\n      \"modified\": \"2025-12-24T23:07:21.298710+00:00\"\r\n    },\r\n    \"Final_Audit_Verification.py\": {\r\n      \"hash\": \"dfa0d42caddaba69db415e56659896b380f5e29076f0167da5c88108c3113402\",\r\n      \"size\": 1128,\r\n      \"modified\": \"2025-12-24T04:45:31.646576+00:00\"\r\n    },\r\n    \"Iteration15_Learning.py\": {\r\n      \"hash\": \"e32b4676f84683e9a6f530c5b4973a83e94aee44733205bf11cc37e2d12fd216\",\r\n      \"size\": 1361,\r\n      \"modified\": \"2025-12-23T00:44:11.830935+00:00\"\r\n    },\r\n    \"KineticNerve.ps1\": {\r\n      \"hash\": \"618d3b9ba978e636d442e3da68731b2c1aa805b680b2c35eda302e19e91ad60a\",\r\n      \"size\": 6092,\r\n      \"modified\": \"2025-12-27T21:04:07.614060+00:00\"\r\n    },\r\n    \"LineageGuard.ps1\": {\r\n      \"hash\": \"10f161d4274a41677ba3d995cec7cd8fe093cddbafa592e6929598ef363415ec\",",
+                                                                         "bytes":  19046
+                                                                     },
+                                                                     {
+                                                                         "path":  "vault\\lineage\\SystemLineage_2025-12-29T01-57-41.json",
+                                                                         "sha256":  "CD61D26E02242F2CB607C8147772BE88850851DD278DF77E1AF25144EAF41FB6",
+                                                                         "preview_first_40_lines":  "{\r\n  \"schema\": \"SYSTEM_LINEAGE_V1\",\r\n  \"generated_at\": \"2025-12-29T01:57:41.051559+00:00\",\r\n  \"generated_at_unix\": 1766973461,\r\n  \"master_hash\": \"4a49be5f99c1751021a2a536fc1ed806b9b55d14fc4d8e3a8158ca1d53972e81\",\r\n  \"file_count\": 88,\r\n  \"total_size_bytes\": 151329038,\r\n  \"files\": {\r\n    \"Compactor.ps1\": {\r\n      \"hash\": \"0a3531a20833c546927114ce11c437220a5677dc8f128be7b6badfb9a4d6dd11\",\r\n      \"size\": 397,\r\n      \"modified\": \"2025-12-24T23:38:35.031847+00:00\"\r\n    },\r\n    \"Complete_Pipeline_Test.py\": {\r\n      \"hash\": \"9f2b3a541622c71fbcf8abbee2822a28b27d62dadaa86dc99104b87ce48a6ed7\",\r\n      \"size\": 508,\r\n      \"modified\": \"2025-12-23T01:19:33.196226+00:00\"\r\n    },\r\n    \"Dashboard.ps1\": {\r\n      \"hash\": \"2de03a25f9849da4ce43b05d6b0e40f4f4c99be3ed40427bd22b19151fe777dc\",\r\n      \"size\": 3186,\r\n      \"modified\": \"2025-12-24T23:07:21.298710+00:00\"\r\n    },\r\n    \"Final_Audit_Verification.py\": {\r\n      \"hash\": \"dfa0d42caddaba69db415e56659896b380f5e29076f0167da5c88108c3113402\",\r\n      \"size\": 1128,\r\n      \"modified\": \"2025-12-24T04:45:31.646576+00:00\"\r\n    },\r\n    \"Iteration15_Learning.py\": {\r\n      \"hash\": \"e32b4676f84683e9a6f530c5b4973a83e94aee44733205bf11cc37e2d12fd216\",\r\n      \"size\": 1361,\r\n      \"modified\": \"2025-12-23T00:44:11.830935+00:00\"\r\n    },\r\n    \"KineticNerve.ps1\": {\r\n      \"hash\": \"618d3b9ba978e636d442e3da68731b2c1aa805b680b2c35eda302e19e91ad60a\",\r\n      \"size\": 6092,\r\n      \"modified\": \"2025-12-27T21:04:07.614060+00:00\"\r\n    },\r\n    \"LineageGuard.ps1\": {\r\n      \"hash\": \"10f161d4274a41677ba3d995cec7cd8fe093cddbafa592e6929598ef363415ec\",",
+                                                                         "bytes":  18166
+                                                                     },
+                                                                     {
+                                                                         "path":  "vault\\lineage\\SystemLineage_2025-12-29T02-13-02.json",
+                                                                         "sha256":  "35336EF91A93AB2EC4C9598F31EC00E2B6A3A75FB1EC807CCA71255C47D2678E",
+                                                                         "preview_first_40_lines":  "{\r\n  \"schema\": \"SYSTEM_LINEAGE_V1\",\r\n  \"generated_at\": \"2025-12-29T02:13:02.077899+00:00\",\r\n  \"generated_at_unix\": 1766974382,\r\n  \"master_hash\": \"fea1d37ab10c33f2d6a25d2ce7e31d2fe2cd193d290ccaae4c5eb4741f81149b\",\r\n  \"file_count\": 92,\r\n  \"total_size_bytes\": 151365906,\r\n  \"files\": {\r\n    \"Compactor.ps1\": {\r\n      \"hash\": \"0a3531a20833c546927114ce11c437220a5677dc8f128be7b6badfb9a4d6dd11\",\r\n      \"size\": 397,\r\n      \"modified\": \"2025-12-24T23:38:35.031847+00:00\"\r\n    },\r\n    \"Complete_Pipeline_Test.py\": {\r\n      \"hash\": \"9f2b3a541622c71fbcf8abbee2822a28b27d62dadaa86dc99104b87ce48a6ed7\",\r\n      \"size\": 508,\r\n      \"modified\": \"2025-12-23T01:19:33.196226+00:00\"\r\n    },\r\n    \"Dashboard.ps1\": {\r\n      \"hash\": \"2de03a25f9849da4ce43b05d6b0e40f4f4c99be3ed40427bd22b19151fe777dc\",\r\n      \"size\": 3186,\r\n      \"modified\": \"2025-12-24T23:07:21.298710+00:00\"\r\n    },\r\n    \"Final_Audit_Verification.py\": {\r\n      \"hash\": \"dfa0d42caddaba69db415e56659896b380f5e29076f0167da5c88108c3113402\",\r\n      \"size\": 1128,\r\n      \"modified\": \"2025-12-24T04:45:31.646576+00:00\"\r\n    },\r\n    \"Iteration15_Learning.py\": {\r\n      \"hash\": \"e32b4676f84683e9a6f530c5b4973a83e94aee44733205bf11cc37e2d12fd216\",\r\n      \"size\": 1361,\r\n      \"modified\": \"2025-12-23T00:44:11.830935+00:00\"\r\n    },\r\n    \"KineticNerve.ps1\": {\r\n      \"hash\": \"618d3b9ba978e636d442e3da68731b2c1aa805b680b2c35eda302e19e91ad60a\",\r\n      \"size\": 6092,\r\n      \"modified\": \"2025-12-27T21:04:07.614060+00:00\"\r\n    },\r\n    \"LineageGuard.ps1\": {\r\n      \"hash\": \"10f161d4274a41677ba3d995cec7cd8fe093cddbafa592e6929598ef363415ec\",",
+                                                                         "bytes":  19046
+                                                                     }
+                                                                 ],
+                                 "note":  "Signals are evidence-of-existence (path + hash + small preview), not full disclosure.",
+                                 "lineage":  {
+                                                 "path":  "vault\\lineage\\CURRENT_LINEAGE.json",
+                                                 "sha256":  "35336EF91A93AB2EC4C9598F31EC00E2B6A3A75FB1EC807CCA71255C47D2678E",
+                                                 "head_40":  "{\r\n  \"schema\": \"SYSTEM_LINEAGE_V1\",\r\n  \"generated_at\": \"2025-12-29T02:13:02.077899+00:00\",\r\n  \"generated_at_unix\": 1766974382,\r\n  \"master_hash\": \"fea1d37ab10c33f2d6a25d2ce7e31d2fe2cd193d290ccaae4c5eb4741f81149b\",\r\n  \"file_count\": 92,\r\n  \"total_size_bytes\": 151365906,\r\n  \"files\": {\r\n    \"Compactor.ps1\": {\r\n      \"hash\": \"0a3531a20833c546927114ce11c437220a5677dc8f128be7b6badfb9a4d6dd11\",\r\n      \"size\": 397,\r\n      \"modified\": \"2025-12-24T23:38:35.031847+00:00\"\r\n    },\r\n    \"Complete_Pipeline_Test.py\": {\r\n      \"hash\": \"9f2b3a541622c71fbcf8abbee2822a28b27d62dadaa86dc99104b87ce48a6ed7\",\r\n      \"size\": 508,\r\n      \"modified\": \"2025-12-23T01:19:33.196226+00:00\"\r\n    },\r\n    \"Dashboard.ps1\": {\r\n      \"hash\": \"2de03a25f9849da4ce43b05d6b0e40f4f4c99be3ed40427bd22b19151fe777dc\",\r\n      \"size\": 3186,\r\n      \"modified\": \"2025-12-24T23:07:21.298710+00:00\"\r\n    },\r\n    \"Final_Audit_Verification.py\": {\r\n      \"hash\": \"dfa0d42caddaba69db415e56659896b380f5e29076f0167da5c88108c3113402\",\r\n      \"size\": 1128,\r\n      \"modified\": \"2025-12-24T04:45:31.646576+00:00\"\r\n    },\r\n    \"Iteration15_Learning.py\": {\r\n      \"hash\": \"e32b4676f84683e9a6f530c5b4973a83e94aee44733205bf11cc37e2d12fd216\",\r\n      \"size\": 1361,\r\n      \"modified\": \"2025-12-23T00:44:11.830935+00:00\"\r\n    },\r\n    \"KineticNerve.ps1\": {\r\n      \"hash\": \"618d3b9ba978e636d442e3da68731b2c1aa805b680b2c35eda302e19e91ad60a\",\r\n      \"size\": 6092,\r\n      \"modified\": \"2025-12-27T21:04:07.614060+00:00\"\r\n    },\r\n    \"LineageGuard.ps1\": {\r\n      \"hash\": \"10f161d4274a41677ba3d995cec7cd8fe093cddbafa592e6929598ef363415ec\","
+                                             }
+                             },
+    "generated_utc":  "2025-12-29T07:01:33Z",
+    "execution_environment":  {
+                                  "os_version":  "10.0.26200",
+                                  "os_caption":  "Microsoft Windows 11 Home",
+                                  "node":  "THEBROKENWAY",
+                                  "cpu_logical":  32,
+                                  "os_build":  "26200",
+                                  "cpu_name":  "13th Gen Intel(R) Core(TM) i9-13980HX",
+                                  "ram_gb":  63.7,
+                                  "cpu_cores":  24,
+                                  "user":  "tilla"
+                              },
+    "audits":  {
+                   "audit_run":  {
+                                     "error":  "No known audit script found (searched common names).",
+                                     "ok":  false
+                                 },
+                   "detected_audit_script":  null
+               }
+}

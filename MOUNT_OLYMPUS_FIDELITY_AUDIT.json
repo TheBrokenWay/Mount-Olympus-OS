@@ -1,0 +1,23 @@
+{
+    "execution_environment": {
+        "node": "TheBrokenWay",
+        "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+        "runtime": "Python 3.14.2"
+    },
+    "attestation": {
+        "immutable_commit_hash": "e624e7f09af7d141c927c5f7044da33dededd7c3",
+        "dependency_lock_hash": "c19041a82386baa036664acf31ed3a3afe5682af16df20726fd074bc15ad4fe4",
+        "patent_id": "#63/941,762"
+    },
+    "statistic_distribution_ms": {
+        "p50_median": 0.0004,
+        "p95_tail": 0.0005,
+        "p99_extreme": 0.0005,
+        "avg_mean": 0.000459,
+        "throughput_evals_sec": 2180530.47
+    },
+    "methodology": {
+        "command": "python v3.6.2_immutable_audit.py",
+        "determinism": "O(1) constant-time substrate enforcement"
+    }
+}
